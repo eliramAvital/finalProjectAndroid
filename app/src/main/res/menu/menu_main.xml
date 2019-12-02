@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.finalproject.MainActivity">
+    <item
+        android:id="@+id/landingFlights"
+        android:orderInCategory="100"
+        android:title="Landing Flights"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/onAirFlights"
+        android:orderInCategory="101"
+        android:title="Flights On-Air"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/flightsByHour"
+        android:orderInCategory="101"
+        android:title="Flights By Hour"
+        app:showAsAction="never"/>
+</menu>
